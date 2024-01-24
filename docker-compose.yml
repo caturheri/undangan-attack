@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  attack-bot:
+    build:
+      context: .
+    env_file:
+      - .env
+    restart: always
